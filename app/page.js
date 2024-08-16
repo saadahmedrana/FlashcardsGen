@@ -136,10 +136,10 @@ export default function Home() {
         variant="contained" color="primary"  textAlign={'center'}>
         <Fade in={true} timeout={1000} key={currentFeature}>
           <Box>
-            <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold', color: '#34495E' }} backgroundColor={'#ffffff'}>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold', color: '#34495E' }}>
               {features[currentFeature].title}
             </Typography>
-            <Typography variant="h10" gutterBottom sx={{ color: '#34495E' }} backgroundColor={'#ffffff'}>
+            <Typography variant="h10" gutterBottom sx={{ color: '#34495E' }}>
               {features[currentFeature].description}
             </Typography>
           </Box>

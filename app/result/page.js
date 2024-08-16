@@ -87,7 +87,7 @@ const resultPage = () => {
     }
     
     return(
-        <Container maxWidth={false} sx={{ backgroundColor: '#BDC3C7', py: 4, textAlign: "center", }}>
+        <Container maxWidth={false} sx={{ backgroundColor: '#BDC3C7', py: 4, }}>
             
 
             <AppBar position="static" color="primary" sx={{ boxShadow: 'none', backgroundColor: '#2C3E50' }}>
@@ -129,16 +129,18 @@ const resultPage = () => {
                 </>
             )
         }
-        <Button 
-            variant="contained" 
-            color="primary" 
-            
-            sx={{ mt: 4 }} 
-            onClick={handleGoHome}
+        <Box textAlign={'center'}>
+            <Button 
+                variant="contained" 
+                color="primary" 
                 
-        >
-            Go to Home
-        </Button>
+                sx={{ mt: 4 }} 
+                onClick={handleGoHome}
+                    
+            >
+                Go to Home
+            </Button>
+        </Box>
         </Container>
     )
 }
