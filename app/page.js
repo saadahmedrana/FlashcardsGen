@@ -172,7 +172,7 @@ export default function Home() {
                 Free for limited features.
               </Typography>
               <Button variant="contained" color="primary" sx={{ mt: 3, backgroundColor: '#2980B9', px: 4, py: 1.5 }} onClick={handleSubmit}>
-                Choose Plan
+                Upgrade Plan
               </Button>
             </Box>
           </Grid>
