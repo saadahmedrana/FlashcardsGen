@@ -9,7 +9,7 @@ import { UserButton, SignedIn, SignedOut } from "@clerk/nextjs";
 
 
 
-const resultPage = () => {
+const ResultPage = () => {
     const router = useRouter()
     const searchParams = useSearchParams()
     const session_id = searchParams.get('session_id')
@@ -145,4 +145,4 @@ const resultPage = () => {
     )
 }
 
-export default resultPage
+export default ResultPage
