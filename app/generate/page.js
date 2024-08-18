@@ -32,7 +32,7 @@ export default function Generate() {
             })
 
             if (!response.ok) {
-                throw new Error('Failed to generate flashcards')
+                throw new Error('Something is off, please try again :(')
             }
 
             const data = await response.json()
